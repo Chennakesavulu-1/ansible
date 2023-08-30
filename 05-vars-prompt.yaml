@@ -11,3 +11,7 @@
   - name: print variable values
     ansible.builtin.debug:
       msg: "username: {{USERNAME}}, password: {{PASSWORD}}"
+
+      #why we use promts..? there me be some database credintials confedencial information you should not
+      #--keep in files you should not keep any where,,
+      #--You should always send from the prompts
