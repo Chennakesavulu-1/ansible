@@ -6,9 +6,9 @@
     TRAINER: Sivakumar
     DURATION: 110HRS
   tasks:
-    - name: print hello world
-      ansible.builtin.debug:
-        msg: "Hello, I am learning Ansible"
-    - name: print variables
-      ansible.builtin.debug:
-        msg: "Hello, I am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
+  - name: print hello world
+    ansible.builtin.debug:
+      msg: "Hello, I am learning Ansible"
+  - name: print variables
+    ansible.builtin.debug:
+      msg: "Hello, I am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
